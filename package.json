@@ -1,6 +1,6 @@
 {
   "name": "aem-slang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Curl files to JCR/Sling",
   "main": "./distribution/index.js",
   "scripts": {
