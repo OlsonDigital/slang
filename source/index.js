@@ -44,9 +44,9 @@ function up(file) {
     let destPath = localPath;
 
     // if jcr_root is in file system path, remove before setting destination
-    if (path.dirname(destPath).indexOf('jcr_root/') !== -1) {
+    if (path.dirname(destPath).indexOf('jcr_root') !== -1) {
         destPath = destPath.substring(path.dirname(destPath)
-            .indexOf('jcr_root/') + 9);
+            .indexOf('jcr_root') + 9);
     }
 
     // create full URL for curl path
